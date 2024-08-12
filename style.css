@@ -1,0 +1,454 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.753);
+    /* font-family: sans-serif; */
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+header > nav > img{
+    padding-left: 3%;
+    padding-top: 2%;
+    height: 10vh;
+    /* padding-right: 10%; */
+}
+header{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+.ul1{
+    display: flex;
+}
+header > nav > .ul1 >li{
+    padding-right: 1vw;
+    list-style: none;
+    width: 22vh;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: bold;
+}
+header > nav > .ul1{
+    padding-left: 35%;
+    padding-right: 0%;
+    padding-top: 4%;
+}
+.ri-phone-fill{
+    background-color: tomato;
+    font-size: x-large;
+    border: 1vh solid tomato;
+    border-radius: 4vh;
+    color: aliceblue;
+}
+.main{
+    display: flex;
+}
+.main > .div1{
+    
+    width: 50%;
+    margin: 10% 3%;
+}
+.main > .div1 > h1 > span{
+    color: rgb(247, 84, 55);
+    font-size: 8vh;
+}
+.main > .div1 > h1 {
+    font-size: 8vh;
+    color: rgba(0, 0, 0, 0.753);
+}
+.main > .div1 > h4{
+    color: rgba(0, 0, 0, 0.753);
+    padding-top: 2%;
+}
+.main > .div1 > p{
+    color: rgba(0, 0, 0, 0.753);
+    margin-bottom: 0%;
+}
+.main > .div1 > button > #slc{
+    width: 10vw;
+    height: 4.5vw;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.76); 
+}
+.main > .div1 > button >.o2{
+    width: 35vw;
+    height: 4.5vw;
+    padding-left: 1vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.76); 
+}
+.main > .div1 > button{
+    position: relative; 
+    width: 35vw;
+    height: 5vw;
+    display: flex;
+    background-color: white;
+    border-color: rgb(255, 255, 255); 
+}
+.ri-search-line{
+    position: absolute;
+    right: 1vh;
+    top: 2vh;
+    font-size: x-large;
+
+}
+.main > .div2{
+    margin: 10% 3%; 
+}
+form{
+    border: 1vh solid black;
+    border-radius: 2vh;
+    background-color: black;
+    width: 100%;
+}
+.main > .div2 > form > .input1{
+    width: 95%;
+    margin: 1vh 1vh;
+    height: 5vh;
+    padding-left: 1vh;
+}
+.main > .div2 > form > .input2{
+    width: 95%;
+    margin: 1vh 1vh;
+    height: 5vh;
+    padding-left: 1vh;
+}
+.main > .div2 > form > .select3{
+    width: 95%;
+    margin: 1vh 1vh;
+    height: 5vh;
+    padding-left: 1vh;
+}
+.main > .div2 > form > .select4{
+    width: 95%;
+    margin: 1vh 1vh;
+    height: 5vh;
+    padding-left: 1vh;
+}
+.main > .div2 > form > .input5{
+    width: 95%;
+    margin: 1vh 1vh;
+    height: 5vh;
+    padding-left: 1vh;
+}
+.main1 > .service{
+    display: flex;
+    justify-content: space-between; 
+    /* box-sizing: border-box; */
+    margin-top: 5vh;
+}
+.main1 > .service > .div1 > img{
+    width: 4vw;
+  
+    vertical-align: middle;
+    margin: 3vh 8vh;
+}
+.main1 > .service > .div1 {
+    border: 0.3vh solid black;
+    width: 15%;
+    border-radius: 2vh;
+    margin-left: 2vh;
+    /* padding-bottom: 2vh; */
+}
+.main1 > .service > .div2 > img{
+    width: 4vw;
+    vertical-align: middle;
+    margin: 3vh 8vh;
+}
+.main1 > .service > .div2{
+    border: 0.3vh solid black;
+    width: 15%;
+    border-radius: 2vh;
+}
+.main1 > .service > .div3 > img{
+    width: 4vw;
+    vertical-align: middle;
+    margin: 3vh 8vh;
+}
+.main1 > .service > .div3{
+    border: 0.3vh solid black;
+    width: 15%;
+    border-radius: 2vh;
+}
+.main1 > .service > .div4 > img{
+    width: 4vw;
+    vertical-align: middle;
+    margin: 3vh 8vh;
+}
+.main1 > .service > .div4{
+    border: 0.3vh solid black;
+    width: 15%;
+    border-radius: 2vh;
+}
+.main1 > .service > .div5 > img{
+    width: 4vw;
+    vertical-align: middle;
+    margin: 3vh 8vh;
+}
+.main1 > .service > .div5{
+    border: 0.3vh solid black;
+    width: 15%;
+    border-radius: 2vh;
+}
+.main1 > .service > .div6 > img{
+    width: 4vw;
+    vertical-align: middle;
+    margin: 3vh 8vh;
+}
+.main1 > .service > .div6{
+    border: 0.3vh solid black;
+    width: 15%;
+    border-radius: 2vh;
+}
+.main2{
+    width: 100%;
+    height: 710vh;
+}
+.main2 > .div1{
+    width: 90%;
+    height: 50vh;
+    margin: 5vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/a.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.main2 > .div2{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div3{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div4{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div5{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div6{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div7{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/g.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div8{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/h.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div9{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/i.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div10{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/j.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div11{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/k.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 > .div12{
+    width: 90%;
+    height: 50vh;
+    margin: 8vh auto 0vh;
+    border: 1vh solid rgba(0, 0, 0, 0);
+    border-radius: 4vh;
+    background-image: url(img/l.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2 h2{
+    text-align: center;
+    color: white;
+    font-size: 4vh;
+    padding-top: 19vh;
+    /* font-weight: 900; */
+}
+.main2 button{
+    color: aliceblue;
+    background-color: black;
+    width: 90%;
+    height: 15%;
+    margin: 2vh 7vh;
+    border-radius: 1vh;
+}
+.main2 button:hover{
+    color: aliceblue;
+    background-color: rgba(255, 72, 0, 0.959);
+}
+.main3{
+    height: 100vh;
+    width: 99%;
+    display: flex;
+}
+.main3 > img{
+    margin: 3vh 5vh;
+}
+.main3 > div{
+    margin: 8vh 1vh;
+}
+.main4{
+    width: 99%;
+    height: 90vh;
+    background-color: rgba(203, 206, 209, 0.486);
+    display: flex;
+}
+.main4 > img{
+    margin-left: 5vh;
+    height: 70vh;
+    margin-top: 10vh;
+}
+.main4 > .div1{
+    margin: 40vh auto 5vh;
+}
+.main4 > .div2{
+    margin-top: 40vh;
+    margin-right: 2vh;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 99%;
+}
+footer > nav {
+    display: flex;
+    color: aliceblue;
+}
+footer > nav > .div1{
+    width: 30%;
+    margin-left: 8vh;
+    color: aliceblue;
+    margin-bottom: 5vh;
+}
+footer > nav > .div2{
+    width: 20%;
+    margin-left: 8vh;
+    color: aliceblue;
+}
+footer > nav > .div2 > .ul2,.ul3,.ul4 > li{
+    
+    list-style: none;
+}
+
+footer > nav > .div3{
+    width: 20%;
+}
+footer > nav > .div4{
+    width: 20%;
+}
+footer > span{
+    font-size: 3vh;
+    margin-left: 20vh;
+    margin-top: 17vw;
+    color:aliceblue;
+}  
+footer > span >.ri-facebook-circle-fill{
+    font-size: 8vh;
+    padding-bottom: 2vh;
+    border-radius: 115vh;
+}
+.ri-youtube-fill{
+    font-size: 8vh;
+    background-color: none;
+}
+.ri-instagram-fill{
+    font-size: 8vh;
+    background-color: none;
+}
+.ri-linkedin-fill{
+    font-size: 6vh;
+    background-color: none;
+    border: 1vh solid;
+    border-radius: 40%;
+    margin-bottom: 10vh;
+}
+
